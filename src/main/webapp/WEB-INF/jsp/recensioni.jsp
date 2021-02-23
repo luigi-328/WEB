@@ -23,6 +23,7 @@
 
       <!--CSS-->
       <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" href="css/recensioni.css" type="text/css" />
 
       <!-- JS -->
       <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -115,33 +116,22 @@
         </div>
       </nav>
 
-      <!-- HEADER -->
-      <div class="headerSection">
-        <div class="input-group">
-          <form class="input-group" method="GET" action="ricerca">
-            <input name="valueProduct" type="text" class="idbar" placeholder="Cosa desideri mangiare?" />
-            <button id="buttonsearch" class="btn btn-secondary" type="submit">Cerca<i class="fa fa-search"></i>
-            </button>
-          </form>
-
-
-        </div>
-        <div class="headerDescrizioni">
-          <h1 class="firstDescr">I piatti che ami a casa tua!</h1>
-          <h2 class="secondDescr">Food Delivery® è il tuo nuovo migliore amico.</h2>
-        </div>
-      </div>
+      
 
      <c:if test="${listaRecensioni==null}">
      <h4>Mi dispiace, non esistono recensioni :(</h4>
      </c:if>
      
-     <c:forEach var="recensioni" items="${listaRecensioni}">
      
-     
-     <p> ${recensioni.nome} <br> ${recensioni.text} </p>
-     
-     </c:forEach>
+     <div class="page-content">
+     	<div class="review">
+     		<c:forEach var="recensioni" items="${listaRecensioni}">
+     			<div class="cardInfo">
+     				<p> ${recensioni.nome} <br> ${recensioni.text} </p>
+     			</div>
+     		</c:forEach>
+     	</div>
+     </div>
       
       
       

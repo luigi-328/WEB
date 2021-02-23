@@ -1,0 +1,38 @@
+body {
+  padding-top: 115px;
+}
+
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+
+.review {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.cardInfo {
+	
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px #dedede;
+  height: 70px;
+  
+}

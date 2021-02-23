@@ -163,7 +163,7 @@
         <h4 class="modal-title">Aiutaci a crescere con una recenzione</h4>
       </div>
       <div class="modal-body">
-        <textarea id="text_recensione" rows="4" cols="60"></textarea>
+        <textarea id="text_recensione" rows="4" cols="60" maxlength="40"></textarea>
         <input type="number" placeholder="ID ORDINE" id="idOrdine"> 
       </div>
       <div class="modal-footer">
