@@ -1,0 +1,233 @@
+/* header */
+.ordine {
+  padding-bottom: 10px;
+}
+.img-success {
+  display: flex;
+  margin-top: 300px;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.text_success {
+  margin-top: 30px;
+  text-align: center;
+}
+.button_support {
+  padding: 0;
+  border-style: none;
+  background: none;
+}
+#fine_button {
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.image_support {
+  width: 100px;
+  height: 100px;
+}
+.buttons {
+  flex-direction: row;
+  margin-right: 300px;
+  justify-content: flex-end;
+  display: flex;
+  padding-bottom: 300px;
+}
+
+.id_ordine {
+  display: flex;
+  justify-content: center;
+  background-color: #80808047;
+  object-fit: contain;
+  height: 100px;
+}
+.id_ordine h1 {
+  color: #e8505bc4;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("/font/Gotham-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("/font/Gotham-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("/font/GothamMedium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamLight";
+  src: url("/font/Gotham-Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: "GothamMedium";
+}
+
+h1 {
+  font-family: "GothamBold";
+}
+
+h2 {
+  font-family: "GothamBold";
+}
+
+h3 {
+  font-family: "GothamBold";
+}
+
+h5 {
+  font-family: "GothamBold";
+}
+
+button {
+  font-family: "GothamBold";
+}
+
+/* NavBar */
+
+.NavBar {
+  background-color: #e8505b !important;
+}
+body {
+  padding-top: 150px;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  color: #f3ecc2 !important;
+}
+
+.NavBar-Title {
+  font-family: "GothamBold" !important;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.navbar-nav a {
+  font-family: "GothamBold";
+  color: white !important;
+  margin-right: 25px;
+}
+
+.dropdown-menu {
+  background-color: #b33d45;
+}
+
+.dropdown-item:hover {
+  background-color: lightcoral;
+}
+
+.cart-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.badge {
+  margin: auto 10px !important;
+}
+
+.nav-link.active {
+  color: #f3ecc2 !important;
+}
+
+.nav-link:hover {
+  color: lightgray !important;
+}
+
+.loginBtn {
+  background-color: #b33d45;
+  color: white;
+}
+
+.loginBtn:hover {
+  background-color: lightcoral;
+}
+
+/* Footer */
+footer {
+  padding-top: 80px;
+}
+
+.footer-title {
+  font-family: "GothamBold";
+  color: #e8505b;
+  margin-top: 10px;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-link-title {
+  font-family: "GothamBold";
+  color: black;
+}
+
+.footer-link-item {
+  text-decoration: none !important;
+  font-family: "GothamLight";
+  color: gray;
+}
+
+.footer-link-item:hover {
+  color: #e8505b;
+}
+
+.copyright-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.copyright-paragraph {
+  color: gray;
+  font-size: 13px;
+}
+
+.copyright-link {
+  text-decoration: none !important;
+  color: #e8505b;
+  font-family: "GothamBold";
+}
+
+.copyright-link:hover {
+  color: lightcoral;
+}
+@media (max-width: 600px) {
+  .buttons {
+    flex-direction: row;
+    margin-right: 0px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 300px;
+  }
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-sm-3 {
+    margin-top: 20px;
+  }
+}

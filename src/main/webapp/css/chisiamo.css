@@ -1,0 +1,18 @@
+body {
+  padding-top: 105px;
+}
+
+.pageContent {
+	
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
+	
+}
+
+#ytplayer{
+	width: 720;
+	height: 405;
+}

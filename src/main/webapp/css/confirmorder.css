@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "GothamBold";
+  src: url("/font/Gotham-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("/font/GothamMedium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamLight";
+  src: url("/font/Gotham-Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+.total-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  margin-top: 65px;
+  width: 90%;
+  align-items: flex-end;
+}
+
+.ordered-products {
+  font-size: 15px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.ordered-products p {
+  margin-top: 3px;
+}
+body {
+  padding-top: 150px;
+}
+
+p {
+  font-family: "GothamMedium";
+}
+
+h1 {
+  font-family: "GothamBold";
+}
+
+h2 {
+  font-family: "GothamBold";
+}
+
+h3 {
+  font-family: "GothamBold";
+}
+
+h5 {
+  font-family: "GothamBold";
+}
+
+button {
+  font-family: "GothamBold";
+}
+
+/* NavBar */
+
+.NavBar {
+  background-color: #e8505b !important;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  color: #f3ecc2 !important;
+}
+
+.NavBar-Title {
+  font-family: "GothamBold" !important;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.navbar-nav a {
+  font-family: "GothamBold";
+  color: white !important;
+  margin-right: 25px;
+}
+
+.dropdown-menu {
+  background-color: #b33d45;
+}
+
+.dropdown-item:hover {
+  background-color: lightcoral;
+}
+
+.cart-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.badge {
+  margin: auto 10px !important;
+}
+
+.nav-link.active {
+  color: #f3ecc2 !important;
+}
+
+.nav-link:hover {
+  color: lightgray !important;
+}
+
+.loginBtn {
+  background-color: #b33d45;
+  color: white;
+}
+
+.loginBtn:hover {
+  background-color: lightcoral;
+}
+
+/* ******* */
+
+/* header */
+.headerSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+}
+.headerSection h1 {
+  margin-top: 50px;
+  margin-left: 45px;
+}
+.headerSection h5 {
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+.divIndirizzi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cardInfo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px #dedede;
+  height: 70px;
+}
+
+#radiobtn {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.aggiungiIndirizzo {
+  color: #626262;
+  font-family: "GothamBold";
+  text-align: end;
+  margin-right: 50px;
+}
+.aggiungiIndirizzo:visited {
+  color: #626262;
+}
+.confirm {
+  position: relative;
+  background: red;
+}
+#confirm_button {
+	position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+/* Footer */
+footer {
+  padding-top: 180px;
+}
+
+.footer-title {
+  font-family: "GothamBold";
+  color: #e8505b;
+  margin-top: 10px;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-link-title {
+  font-family: "GothamBold";
+  color: black;
+}
+
+.footer-link-item {
+  text-decoration: none !important;
+  font-family: "GothamLight";
+  color: gray;
+}
+
+.footer-link-item:hover {
+  color: #e8505b;
+}
+
+.copyright-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.copyright-paragraph {
+  color: gray;
+  font-size: 13px;
+}
+
+.copyright-link {
+  text-decoration: none !important;
+  color: #e8505b;
+  font-family: "GothamBold";
+}
+
+.copyright-link:hover {
+  color: lightcoral;
+}
+/*responsive*/
+@media (max-width: 600px) {
+  .cardsSection {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-img-top {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+  }
+  .input-group {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .idbar {
+    width: 70%;
+    margin: auto;
+  }
+  #buttonsearch {
+    width: 20%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 85%;
+  }
+  .firstDescr {
+    font-size: 30px;
+  }
+  .secondDescr {
+    font-size: 25px;
+  }
+
+  .delivery-promo-description {
+    width: 100%;
+  }
+
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-sm-3 {
+    margin-top: 20px;
+  }
+}
+/*mobile*/
+@media (max-width: 400px) {
+  .headerSection h5 {
+    font-size: 90%;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-sm-3 {
+    margin-top: 20px;
+  }
+}

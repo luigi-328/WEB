@@ -1,0 +1,83 @@
+body {
+  padding-top: 102px;
+}
+
+h8 {
+  font-family: "GothamBold";
+}
+
+.input-item {
+  max-width: 50px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(233, 227, 227);
+  width: 100%;
+  margin-top: auto;
+}
+
+.item {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/*.item {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 50px;
+  margin-left: 2%;
+}*/
+
+.card-body-catalog {
+  margin-top: -40px;
+  text-align: center;
+}
+
+.card-catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1%;
+}
+
+#page-title {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.card-img-modal {
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+}
+
+.modal-dialog {
+  max-width: 50%;
+}
+
+.card-img-catalog {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-top: 0px;
+}
+#result{
+	margin-top:30px;
+	text-align:center;
+	margin-bottom:100px;
+}

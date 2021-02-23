@@ -1,0 +1,355 @@
+@font-face {
+  font-family: "GothamBold";
+  src: url("/font/Gotham-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("/font/GothamMedium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamLight";
+  src: url("/font/Gotham-Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  padding-top: 150px;
+}
+
+p {
+  font-family: "GothamMedium";
+}
+
+h1 {
+  font-family: "GothamBold";
+}
+
+h2 {
+  font-family: "GothamBold";
+}
+
+h3 {
+  font-family: "GothamBold";
+}
+
+h5 {
+  font-family: "GothamBold";
+}
+
+button {
+  font-family: "GothamBold";
+}
+
+/* NavBar */
+
+.NavBar {
+  background-color: #e8505b !important;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  color: #f3ecc2 !important;
+}
+
+.NavBar-Title {
+  font-family: "GothamBold" !important;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.navbar-nav a {
+  font-family: "GothamBold";
+  color: white !important;
+  margin-right: 25px;
+}
+
+.dropdown-menu {
+  background-color: #b33d45;
+}
+
+.dropdown-item:hover {
+  background-color: lightcoral;
+}
+
+.cart-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.badge {
+  margin: auto 10px !important;
+}
+
+.nav-link.active {
+  color: #f3ecc2 !important;
+}
+
+.nav-link:hover {
+  color: lightgray !important;
+}
+
+.loginBtn {
+  background-color: #b33d45;
+  color: white;
+}
+
+.loginBtn:hover {
+  background-color: lightcoral;
+}
+
+.account-link {
+  display: inline-block;
+}
+
+.account-link i {
+  vertical-align: middle;
+}
+
+/* ******* *
+
+/* Product Box */
+.product-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.product-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  height: 150px;
+  border-radius: 12px;
+  background-color: white;
+  margin-top: 20px;
+  box-shadow: 0px 0px 13px #e9e9e9;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin: auto 10px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-title {
+  font-size: 20px;
+}
+
+.product-ingredients,
+.product-quantity {
+  font-size: 14px;
+  color: gray;
+}
+
+.product-price {
+  font-size: 20px;
+  margin: auto 10px;
+}
+
+.product-quantity {
+  margin-bottom: 0;
+}
+
+.quantity-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.option-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.add-btn,
+.minus-btn {
+  background-color: transparent;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.price-delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.delete-btn {
+  margin: auto 10px;
+  background-color: transparent;
+  color: #e8505b !important;
+}
+
+.product-separator {
+  margin-top: 70px;
+}
+
+/* Total price */
+.total-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  margin-top: 65px;
+  width: 90%;
+  align-items: flex-end;
+}
+
+.ordered-products {
+  font-size: 15px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.ordered-products p {
+  margin-top: 3px;
+}
+
+.continue-order-btn {
+  background-color: #e8505b;
+  color: white;
+  width: 150px;
+  margin-top: 40px;
+}
+
+.continue-order-btn:hover {
+  background-color: #b33d45;
+}
+
+/* Footer */
+.footer-separator {
+  margin-bottom: 50px;
+}
+
+footer {
+  padding-top: 80px;
+}
+
+.footer-title {
+  font-family: "GothamBold";
+  color: #e8505b;
+  margin-top: 10px;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-link-title {
+  font-family: "GothamBold";
+  color: black;
+}
+
+.footer-link-item {
+  text-decoration: none !important;
+  font-family: "GothamLight";
+  color: gray;
+}
+
+.footer-link-item:hover {
+  color: #e8505b;
+}
+
+.copyright-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.copyright-paragraph {
+  color: gray;
+  font-size: 13px;
+}
+
+.copyright-link {
+  text-decoration: none !important;
+  color: #e8505b;
+  font-family: "GothamBold";
+}
+
+.copyright-link:hover {
+  color: lightcoral;
+}
+
+@media (max-width: 1000px) {
+  .product-box {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-box {
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .product-image {
+    margin-top: 30px;
+  }
+
+  .quantity-option {
+    align-items: center;
+  }
+
+  .price-delete {
+    display: block;
+    width: 100%;
+  }
+
+  .total-price {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .product-price {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .delete-btn {
+    margin: 0;
+    margin-top: 20px;
+    text-align: right;
+    width: 100%;
+
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-sm-3 {
+    margin-top: 20px;
+  }
+}
