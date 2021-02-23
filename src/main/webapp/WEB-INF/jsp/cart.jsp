@@ -43,6 +43,12 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
+                <form method="GET" action="recensioni">
+                  <a class="nav-link" aria-current="page" href="javascript:;"
+                    onclick="parentNode.submit();">Recensioni</a>
+                </form>
+              </li>
+              <li class="nav-item">
                 <form method="GET" action="catalog">
                   <a class="nav-link" aria-current="page" href="javascript:;"
                     onclick="parentNode.submit();">Catalogo</a>
@@ -70,7 +76,7 @@
                     </form>
                   </li>
                 </ul>
-              </li>
+
               <li class="nav-item">
                 <form method="POST" action="cart">
                   <a class="nav-link cart-link" aria-current="page" href="javascript:;"
